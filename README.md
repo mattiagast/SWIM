@@ -1,9 +1,18 @@
-# SWIMProj3
+# SWIM: An Efficient Framework to Train Neural Networks
+This project analyzes the **Sampling Where It Matters (SWIM)** framework [2], an innovative approach for training fully-connected neural networks that avoids iterative, gradient-based optimization by directly sampling weights from the available data.
 
-Install the main package with the requirements: clone the repository ``swimnetworks`` outside of the current repo. Then navigate inside it and execute the following command from the root folder:
+## Abstract
+The project explores the efficiency and versatility of the SWIM algorithm. The main objective is to overcome the computational bottlenecks of traditional backpropagation through a non-iterative, data-driven sampling strategy [2]. The analysis is structured into two main phases:
 
-.. code-block:: bash
+1. **Multi-Fidelity Regression**: Application of SWIM to multi-fidelity problems, where the framework is used to approximate the benchmark Forrester function.
+2. **Physics-Informed Modeling (SWIM-PDE)**: By incorporating physical constraints directly into the network architecture, SWIM-PDE [1] provides a fast alternative to traditional Physics-Informed Neural Networks (PINNs). Within this framework, the performance of SWIM-PDE is evaluated and compared to PINNs specifically for the reconstruction of heartbeat propagation via the Eikonal equation.
 
-    pip install .
+## References
+* [1] C. Datar et al. "Solving partial differential equations with sampled neural networks", arXiv:2405.20836, 2024.
+* [2] E. Bolager et al. "Sampling weights of deep neural networks", NeurIPS 2023; arXiv:2306.16830.
 
-It is then possible to run the ``test_swim.py`` file which is an example of learning with a sinusoidal function. 
+## License
+The report included in this repository is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. You are free to share and redistribute the material in any medium or format, provided that appropriate credit is given.
+
+## Contact
+For questions, clarifications, or further information about the project, feel free to contact me at **mattia.gastoldi@mail.polimi.it**. Upon request, further details can be provided.
