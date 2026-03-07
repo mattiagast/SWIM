@@ -12,7 +12,7 @@ The project explores the efficiency and versatility of the SWIM algorithm. The m
 * [2] E. Bolager et al. "Sampling weights of deep neural networks", NeurIPS 2023; arXiv:2306.16830.
 
 ## License
-The report included in this repository is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. You are free to share and redistribute the material in any medium or format, provided that appropriate credit is given.
+The scientific report included in this repository is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. You are free to share and redistribute the material in any medium or format, provided that appropriate credit is given.
 
 ## Contact
 For questions, clarifications, or further information about the project, feel free to contact me at **mattia.gastoldi@mail.polimi.it**. Upon request, further details can be provided.
