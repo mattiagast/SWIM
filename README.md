@@ -19,7 +19,7 @@ This repository adopts a dual-licensing approach to distinguish between the soft
 The source code and scripts in this repository are licensed under the **[MIT License](LICENSE)**. Since this implementation builds upon existing frameworks and external libraries, you are free to use, modify, and distribute the code, provided that the original license and copyright notice are included.
 
 ### 2. Scientific Report & Results (Non-Manipulable)
-The project report (`SWIM_Scientific_Report.pdf`) and the visual results/posters are protected. All rights are reserved to the authors: **Arianna Cagali, Mattia Gastoldi, and Roberto Gastoldi**.
+The project report (`SWIM_Scientific_Report.pdf`) and the visual results are protected. All rights are reserved to the authors: **Arianna Cagali, Mattia Gastoldi, and Roberto Gastoldi**.
 
 * **Non-Manipulable**: You are **not allowed to modify, alter, or build upon** the report text or the visual results for further distribution.
 * **Non-Commercial**: The use of the report, findings, or posters for profit is strictly prohibited.
